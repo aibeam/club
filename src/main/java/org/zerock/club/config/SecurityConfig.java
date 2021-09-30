@@ -27,10 +27,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.logout();
     }
 
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("user1")
-                .password("$2a$10$5LbIKIjHnLebJzBwd.K8ue2NrywUhKCViX9Bv5hwCnR8VfoqTY1Gy")
-                .roles("USER");
-    }
+//    @Override
+//    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+//        auth.inMemoryAuthentication().withUser("user1")
+//                .password("$2a$10$5LbIKIjHnLebJzBwd.K8ue2NrywUhKCViX9Bv5hwCnR8VfoqTY1Gy")
+//                .roles("USER");
+//    }
 }
