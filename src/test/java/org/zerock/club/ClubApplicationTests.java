@@ -9,5 +9,4 @@ class ClubApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
