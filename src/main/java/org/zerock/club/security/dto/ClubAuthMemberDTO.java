@@ -22,7 +22,9 @@ public class ClubAuthMemberDTO extends User implements OAuth2User { //security�
     private String password;
     private String name;
     private boolean fromSocial;
+    //구글로부터 받아오는 정보 id, picture 등
     private Map<String, Object> attr;
+
     public ClubAuthMemberDTO(String username, String password, boolean fromSocial,
                              Collection<? extends GrantedAuthority> authorities, Map<String, Object> attr) {
         this(username,password, fromSocial, authorities);
